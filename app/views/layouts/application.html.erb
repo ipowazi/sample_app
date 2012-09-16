@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>RoR | <%= @title %></title>
+	<title><%= title %></title>
 	<%= csrf_meta_tag %>
 </head>
 <body>
-	<%= yield %>
+	<%= yield %> <!-- Responsible for entering the contents of each page into the layout -->
 </body>
 </html>
