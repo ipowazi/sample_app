@@ -1,5 +1,5 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
+  resources :users
 
   root :to => 'pages#home'
   match '/about', :to => 'pages#about'  #matches about path to about action in controller
